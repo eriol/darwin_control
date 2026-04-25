@@ -1,0 +1,5 @@
+# Launch darwin_control.
+run:
+    #!/usr/bin/env bash
+    source "{{justfile_directory()}}/devel/setup.bash" \
+    && roslaunch darwin_control darwin_control.launch
