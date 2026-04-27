@@ -75,7 +75,7 @@ darwin:
   l_ank_pitch_position_controller:
     type: effort_controllers/JointPositionController
     joint: l_ank_pitch
-    pid: {p: 15.0, i: 0.0, d: 0.1}
+    pid: {p: 50.0, i: 0.0, d: 0.2}
 
   l_ank_roll_position_controller:
     type: effort_controllers/JointPositionController
@@ -107,7 +107,7 @@ darwin:
   r_ank_pitch_position_controller:
     type: effort_controllers/JointPositionController
     joint: r_ank_pitch
-    pid: {p: 15.0, i: 0.0, d: 0.1}
+    pid: {p: 50.0, i: 0.0, d: 0.2}
 
   r_ank_roll_position_controller:
     type: effort_controllers/JointPositionController
